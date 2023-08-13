@@ -1,0 +1,41 @@
+/* Override default Bootstrap styles */
+body {
+    background-color: #fdf1e1;
+    ;
+}
+
+.navbar {
+    background-color: #C8AE7D;
+}
+
+.sidebar {
+    background-color: #765827;
+}
+
+.content-header {
+    background-color: #EAC696;
+    color: white;
+}
+
+/* Customize specific elements */
+.content-header h1 {
+    font-size: 1.5rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* Apply your color theme */
+.alert-success {
+    background-color: #65451F;
+    border-color: #765827;
+    color: white;
+}
+
+.alert-error {
+    background-color: #dc3545; /* Default Bootstrap color for danger alerts */
+    color: white;
+}
+
+/* Add more customizations and overrides as needed */
